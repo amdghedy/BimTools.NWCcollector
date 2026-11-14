@@ -1,0 +1,10 @@
+{
+  "Name": "Files in the root folder only -> one file",
+  "Description": "Combines only the NWC files that sit directly in the root folder (no subfolders) into one output named All. Set the output name in the Source tab.",
+  "Mode": "SingleOutput",
+  "SingleOutputName": "All",
+  "RootFolderOnly": true,
+  "FileOrder": "NameAscending",
+  "OutputNameTemplate": "{name}",
+  "ExistingFilePolicy": "Ask"
+}

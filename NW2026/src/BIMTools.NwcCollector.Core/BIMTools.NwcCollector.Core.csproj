@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- No Navisworks dependency: scanning, grouping, contracts and reporting only. -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>BIMTools.NwcCollector.Core</AssemblyName>
+    <RootNamespace>BIMTools.NwcCollector.Core</RootNamespace>
+  </PropertyGroup>
+</Project>

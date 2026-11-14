@@ -1,0 +1,9 @@
+{
+  "Name": "Discipline suffix in file name (..._ARC, ...-STR)",
+  "Description": "Groups by a 2-4 letter code at the end of the file name, after _ or -.",
+  "Mode": "FileNameRegex",
+  "FileNameRegex": "[_-](?<group>[A-Za-z]{2,4})$",
+  "UnmatchedGroupName": "_Other",
+  "OutputNameTemplate": "{name}",
+  "ExistingFilePolicy": "Ask"
+}

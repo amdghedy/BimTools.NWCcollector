@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VERIFY the RuntimeRequirements values (Platform / SeriesMin / SeriesMax) against Autodesk's
+     Navisworks 2025 plug-in bundle documentation. -->
+<ApplicationPackage SchemaVersion="1.0"
+                    AutodeskProduct="Navisworks"
+                    ProductType="Application"
+                    Name="BIMTools NWC Folder Collector"
+                    Description="Collects NWC files from repeated folder names and builds one NWD per name."
+                    AppVersion="1.0.0"
+                    Author="BIM TOOLS"
+                    AppNameSpace="bimtools.nwcfoldercollector"
+                    UpgradeCode="{6F1D2A52-3B8C-4E7B-9A3D-5C0B7E1F4A90}">
+  <CompanyDetails Name="BIM TOOLS" />
+  <Components>
+    <RuntimeRequirements OS="Win64" Platform="NAVMAN|NAVSIM" SeriesMin="Nw2025" SeriesMax="Nw2025" />
+    <ComponentEntry AppName="BIMTools.NwcFolderCollector"
+                    Version="1.0.0"
+                    ModuleName="./Contents/BIMTools.NwcCollector.Launcher.dll"
+                    AppDescription="NWC Folder Collector (BIM TOOLS tab)"
+                    LoadOnAppStartup="True" />
+  </Components>
+</ApplicationPackage>

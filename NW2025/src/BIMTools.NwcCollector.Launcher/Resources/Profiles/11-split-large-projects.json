@@ -1,0 +1,10 @@
+{
+  "Name": "Split large projects into parts of 40 files",
+  "Description": "Everything under the root, split into several federated files of at most 40 source files each (_part01, _part02...), largest files first so heavy models load together.",
+  "Mode": "SingleOutput",
+  "SingleOutputName": "",
+  "MaxFilesPerOutput": 40,
+  "FileOrder": "SizeDescending",
+  "OutputNameTemplate": "{name}_{date}",
+  "ExistingFilePolicy": "AutoVersion"
+}

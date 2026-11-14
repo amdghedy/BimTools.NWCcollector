@@ -1,0 +1,11 @@
+{
+  "Name": "Discipline prefix in file name (ARC_..., STR_..., MEP_...)",
+  "Description": "Groups by a 2-4 letter code at the start of the file name, followed by _ or -. Appends in priority order: architecture, structure, MEP.",
+  "Mode": "FileNameRegex",
+  "FileNameRegex": "^(?<group>[A-Za-z]{2,4})[_-]",
+  "UnmatchedGroupName": "_Other",
+  "FileOrder": "PriorityList",
+  "PriorityWords": ["ARC", "STR", "MEP", "HVAC", "ELE", "PLB"],
+  "OutputNameTemplate": "{name}",
+  "ExistingFilePolicy": "Ask"
+}

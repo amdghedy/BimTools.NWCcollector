@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <!-- Folder that contains Roamer.exe, Autodesk.Navisworks.Api.dll and Autodesk.Navisworks.Automation.dll.
+         Override on the command line: -p:NavisworksDir="D:\Autodesk\Navisworks Manage 2026" -->
+    <NavisworksDir Condition="'$(NavisworksDir)' == ''">C:\Program Files\Autodesk\Navisworks Manage 2026</NavisworksDir>
+
+    <!-- VERIFY against the Navisworks 2026 SDK documentation. Navisworks 2025 and earlier use .NET Framework 4.8.
+         If 2026 requires another target (for example net8.0-windows), change it here only. -->
+    <AppTargetFramework>net48</AppTargetFramework>
+
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <Version>1.0.0</Version>
+    <Company>BIM TOOLS</Company>
+    <Product>NWC Folder Collector</Product>
+  </PropertyGroup>
+</Project>

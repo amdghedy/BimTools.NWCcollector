@@ -1,0 +1,10 @@
+{
+  "Name": "ISO 19650 file names - group by Role (field 6)",
+  "Description": "For names like PRJ-ORG-ZZ-00-M3-A-0001: splits at '-' and groups by the 6th field (role / discipline code). Change the part number if your naming standard differs.",
+  "Mode": "FileNameToken",
+  "TokenDelimiters": "-",
+  "TokenIndex": 6,
+  "UnmatchedGroupName": "_Unmatched",
+  "OutputNameTemplate": "{root}_{name}",
+  "ExistingFilePolicy": "Ask"
+}

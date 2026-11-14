@@ -1,0 +1,8 @@
+{
+  "Name": "Everything into one federated model",
+  "Description": "All matching files under the root go into a single output named after the root folder (or the name you enter). Add a max-files limit to split very large projects into parts.",
+  "Mode": "SingleOutput",
+  "SingleOutputName": "",
+  "OutputNameTemplate": "{name}_{date}",
+  "ExistingFilePolicy": "AutoVersion"
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "By first-level folder (building / zone / package)",
+  "Description": "Groups by the folder directly below the root (level 1). Use level 2 or 3 for deeper structures such as Project > Building > Level.",
+  "Mode": "FolderAtDepth",
+  "Depth": 1,
+  "IncludeRootFiles": false,
+  "OutputLocation": "SubfolderPerGroup",
+  "OutputNameTemplate": "{root}_{name}",
+  "ExistingFilePolicy": "Ask"
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Same-name folders (e.g. 1A1 in many zones)",
+  "Description": "Finds every folder with the same exact name anywhere under the root (1A1, 1A2, 2A1...) and builds one file per name. Use the folder-name list or the pattern.",
+  "Mode": "FolderName",
+  "FolderNames": [],
+  "FolderNamePattern": "^\\d+[A-Za-z]+\\d+$",
+  "OutputNameTemplate": "{name}",
+  "ExistingFilePolicy": "Ask"
+}

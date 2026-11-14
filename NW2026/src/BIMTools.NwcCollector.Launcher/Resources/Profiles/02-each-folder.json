@@ -1,0 +1,10 @@
+{
+  "Name": "Each folder to its own file (next to the sources)",
+  "Description": "Every folder that directly contains NWC files gets its own NWD, saved in that folder. Typical for discipline or zone folders.",
+  "Mode": "EachFolder",
+  "OutputLocation": "NextToSource",
+  "IncludeRootFiles": true,
+  "RootFilesGroupName": "Root",
+  "OutputNameTemplate": "{name}",
+  "ExistingFilePolicy": "Ask"
+}

@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <!-- Folder that contains Roamer.exe, Autodesk.Navisworks.Api.dll and Autodesk.Navisworks.Automation.dll.
+         Override on the command line: -p:NavisworksDir="D:\Autodesk\Navisworks Manage 2025" -->
+    <NavisworksDir Condition="'$(NavisworksDir)' == ''">C:\Program Files\Autodesk\Navisworks Manage 2025</NavisworksDir>
+
+    <!-- Navisworks 2025 uses .NET Framework 4.8. -->
+    <AppTargetFramework>net48</AppTargetFramework>
+
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <Version>1.0.0</Version>
+    <Company>BIM TOOLS</Company>
+    <Product>NWC Folder Collector</Product>
+  </PropertyGroup>
+</Project>

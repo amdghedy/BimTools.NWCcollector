@@ -1,0 +1,11 @@
+{
+  "Name": "Nightly build: latest revisions, archive previous",
+  "Description": "For scheduled runs: uses only the newest revision of each file (_R03, -v2), rebuilds only outputs whose sources changed, moves the old file to _Archive, writes a CSV manifest. Run it headless with Worker.exe --auto.",
+  "Mode": "FolderName",
+  "FolderNamePattern": "^\\d+[A-Za-z]+\\d+$",
+  "LatestRevisionOnly": true,
+  "SkipUpToDate": true,
+  "ExistingFilePolicy": "ArchiveOld",
+  "WriteCsv": true,
+  "OutputNameTemplate": "{name}"
+}

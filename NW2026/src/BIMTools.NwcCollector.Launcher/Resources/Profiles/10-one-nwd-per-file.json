@@ -1,0 +1,8 @@
+{
+  "Name": "One NWD per source file (convert / republish)",
+  "Description": "Every source file becomes its own output file. Useful to convert a folder of NWC files to NWD one by one.",
+  "Mode": "EachFile",
+  "OutputLocation": "SingleFolder",
+  "OutputNameTemplate": "{name}",
+  "ExistingFilePolicy": "Skip"
+}
